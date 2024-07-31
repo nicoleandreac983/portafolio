@@ -1,0 +1,25 @@
+body{
+    background: $primary;
+}
+
+.project-img {
+    max-width: 200px; /* Establece el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    display: block; /* Asegura que el margen sea aplicado correctamente */
+    margin: 0 auto; /* Centra las imágenes dentro del contenedor */
+}
+.project-text {
+    text-align: center; /* Centra el texto debajo de la imagen */
+}
+
+.btn-custom {
+    width: 100%; /* Hace que el botón ocupe todo el ancho del contenedor */
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-info i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
